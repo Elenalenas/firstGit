@@ -1,0 +1,17 @@
+{
+  "name": "webliumomel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "wd:update": "webdriver-manager update",
+    "wd:start": "webdriver-manager start",
+    "test": "nightwatch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nightwatch": "^0.9.16",
+    "webdriver-manager": "^12.0.6"
+  }
+}
