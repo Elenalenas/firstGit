@@ -20,18 +20,23 @@ class Landing {
         this.browser.url('https://weblium.com')
         this.browser.waitForElementPresent(this.getStarted, 1000)
     }
+
     clickGetStarted() {
         this.browser.click(this.getStarted)
     }
+
     clickLoginButton() {
         this.browser.click(this.logIn)
     }
+
     clickSignUpButton(){
         this.browser.click(this.signUp)
     }
+
     clickSignUpAndStartTrialNow(){
         this.browser.click(this.signUpAndStartTrialNow)
     }
+    
     /*clickAbout(){
         this.browser.click(this.about)*/
     }
